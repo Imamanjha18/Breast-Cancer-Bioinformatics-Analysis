@@ -24,13 +24,13 @@ Breast cancer progression is driven by complex molecular mechanisms. This projec
 7. Regulatory Network (TF + miRNA)
 8. Drug Enrichment (Enrichr)
 
-## Dataset Used
+## 📂 Datasets Used
 
-Dataset          Description
-
-1. GSE42568 -    Gene expression profiling of 104 breast cancer and 17 normal breast biopsies.
-2. GSE65194 -    Gene expression profiling of 130 breast cancer samples (41 TNBC ; 30 Her2 ; 30 Luminal B and 29 Luminal A),                   11 normal breast tissue samples and 14 TNBC cell lines.
-3. GSE70947 -    Gene expression profiling of 296 total samples: 148 breast adenocarcinoma, 148 paired adjacent normal                         breast tissue
+| Dataset | Description |
+|--------|------------|
+| GSE42568 | 104 breast cancer and 17 normal samples |
+| GSE65194 | 130 breast cancer samples (TNBC, HER2, Luminal) + normal tissues |
+| GSE70947 | 148 breast cancer and 148 matched normal tissues |
 
 All datasets were obtained from NCBI GEO (https://www.ncbi.nlm.nih.gov/geo/).
 
@@ -73,7 +73,7 @@ Tool used: Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny/);
 Result: 124 common DEGs found
 
 <img width="1280" height="1280" alt="Venn Results" src="https://github.com/user-attachments/assets/e72c77a9-dc96-4300-aeda-4f0942273137" />
-
+*Figure 1: Identification of 124 common DEGs across three datasets*
 
 ### 3\. PPI Network Construction
 
@@ -94,13 +94,13 @@ Network stats:
 Tool used: Cytoscape (cytoHubba);
 Method: Degree centrality
 
-Tol 10 Hub genes: EZH2, CCNB1, RAD51, BUB1B, NUF2, UHRF1, KIF2C, HDAC1, ASPM, ESPL1
+Top 10 Hub genes: EZH2, CCNB1, RAD51, BUB1B, NUF2, UHRF1, KIF2C, HDAC1, ASPM, ESPL1
 
 ### 5\. Module Detection
 
 Tool used: Cytoscape (MCODE);
 
-top MCODE cluster (functional module):
+Top MCODE cluster (functional module):
 Score - 10.6;
 Nodes - 11;
 Edges - 53 (highly interconnected)
