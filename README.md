@@ -117,12 +117,16 @@ Tool used: NetworkAnalyst
 
 1. Transcription Factors (TFs):
 ELF1, KDM5A, KLF9, KLF1, POLR2A, IRF1, ZNF175, ZNF263
-2. miRNAs:
+
+<img width="8721" height="7897" alt="TF Gene Interactions" src="https://github.com/user-attachments/assets/13b0f7c7-62c3-49e4-b663-762258e7cdb8" />
+
+
+3. miRNAs:
 hsa-miR-193b-3p, hsa-let-7a-5p, hsa-let-7b-5p, hsa-miR-192-5p, hsa-miR-215-5p, hsa-miR-124-3p, hsa-miR-25-3p, hsa-miR-92a-3p
 
-## 🔬 Regulatory Network
-![TF Network](figures/TF Gene Interactions.png)
-![miRNA TF Network](figures/miRNA TF Gene Interactions.png)
+<img width="8721" height="7897" alt="miRNA TF Gene Interactions" src="https://github.com/user-attachments/assets/676797c8-268c-47a6-895d-863fa11790f9" />
+
+
 
 
 ### 8\. Drug Enrichment Analysis
@@ -131,8 +135,8 @@ Tool used: Enrichr (DSigDB(Drug SIGnatures DataBase))
 
 Top candidate drugs: LUCANTHONE, Phytoestrogens, Troglitazone, Etoposide, Enterolactone, Calcitriol, Resveratrol
 
-## 💊 Drug Enrichment
-![Drug](figures/DSigDB Drug.png)
+<img width="708" height="299" alt="DSigDB Drug" src="https://github.com/user-attachments/assets/39d076cb-2c8b-4700-a29b-1e4236e07d54" />
+
 
 ## Key Findings
 
