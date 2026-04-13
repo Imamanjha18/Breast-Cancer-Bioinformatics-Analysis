@@ -59,12 +59,11 @@ Genes were considered differentially expressed based on:
 
 These criteria ensure both statistical significance and biological relevance.
 
-
-\[I] GSE42568: Total DEGs - 6417; Upregulated - 3063; Downregulated - 3354
-
-\[II] GSE65194: Total DEGs - 7785; Upregulated - 2573; Downregulated - 5212
-
-\[III] GSE70947: Total DEGs - 646; Upregulated - 321; Downregulated - 325
+| Dataset | Total | Upregulated | Downregulated |
+|--------|-------|------------|---------------|
+| GSE42568 | 6417 | 3063 | 3354 |
+| GSE65194 | 7785 | 2573 | 5212 |
+| GSE70947 | 646 | 321 | 325 |
 
 ### 2\. Common Gene Identification
 
@@ -73,7 +72,7 @@ Tool used: Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny/);
 Result: 124 common DEGs found
 
 <img width="1280" height="1280" alt="Venn Results" src="https://github.com/user-attachments/assets/e72c77a9-dc96-4300-aeda-4f0942273137" />
-*Figure 1: Identification of 124 common DEGs across three datasets*
+Figure 1: Identification of 124 common DEGs across three datasets
 
 ### 3\. PPI Network Construction
 
@@ -137,6 +136,15 @@ Top candidate drugs: LUCANTHONE, Phytoestrogens, Troglitazone, Etoposide, Entero
 
 <img width="708" height="299" alt="DSigDB Drug" src="https://github.com/user-attachments/assets/39d076cb-2c8b-4700-a29b-1e4236e07d54" />
 
+## 🔬 Biological Interpretation
+
+The identified key genes are primarily involved in:
+
+- Cell cycle regulation (CCNB1, BUB1B, KIF2C)
+- DNA repair mechanisms (RAD51)
+- Epigenetic regulation (EZH2, UHRF1)
+
+These findings highlight uncontrolled cell proliferation and genomic instability as central mechanisms in breast cancer progression.
 
 ## Key Findings
 
@@ -167,6 +175,18 @@ Drug enrichment suggests: Potential therapeutic candidates targeting key pathway
 2. Survival analysis
 3. Molecular docking and MD simulations
 4. Clinical validation
+
+## Reproducibility
+
+All analysis steps can be reproduced using:
+
+- GEO2R for DEG analysis  
+- STRING for PPI network  
+- Cytoscape (cytoHubba + MCODE)  
+- NetworkAnalyst for TF/miRNA  
+- Enrichr for drug enrichment  
+
+Processed data and intermediate files are available in respective folders.
 
 ## 👨‍🔬 Author
 
