@@ -57,9 +57,7 @@ Genes were considered differentially expressed based on:
 \- |logFC| > 1
 
 
-
 These criteria ensure both statistical significance and biological relevance.
-
 
 
 \[I] GSE42568: Total DEGs - 6417; Upregulated - 3063; Downregulated - 3354
@@ -120,6 +118,21 @@ hsa-miR-193b-3p, hsa-let-7a-5p, hsa-let-7b-5p, hsa-miR-192-5p, hsa-miR-215-5p, h
 Tool used: Enrichr (DSigDB(Drug SIGnatures DataBase))
 
 Top candidate drugs: LUCANTHONE, Phytoestrogens, Troglitazone, Etoposide, Enterolactone, Calcitriol, Resveratrol
+
+
+## 📊 Venn Diagram (Common DEGs)
+![Venn Diagram](figures/Venn Results.png)
+
+## 🔗 PPI Network
+![PPI Network](figures/PPI Network.png)
+
+## 🔬 Regulatory Network
+![TF Network](figures/TF Gene Interactions.png)
+![TF miRNA Network](figures/miRNA TF Gene Interactions.png)
+
+## 💊 Drug Enrichment
+![Drug](figures/DSigDB Drug.png)
+
 
 ## Key Findings
 
