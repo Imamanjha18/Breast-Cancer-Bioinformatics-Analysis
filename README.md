@@ -72,6 +72,7 @@ Tool used: Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny/);
 Result: 124 common DEGs found
 
 <img width="1280" height="1280" alt="Venn Results" src="https://github.com/user-attachments/assets/e72c77a9-dc96-4300-aeda-4f0942273137" />
+
 **Figure 1: Identification of Common Differentially Expressed Genes (DEGs)**  
 
 Venn diagram showing the overlap of DEGs across three breast cancer datasets (GSE42568, GSE65194, and GSE70947), resulting in 124 common genes.
@@ -88,6 +89,7 @@ Network stats:
 
 
 <img width="5013" height="5153" alt="String Network" src="https://github.com/user-attachments/assets/a94dea76-b077-41c4-84c5-1f132774819e" />
+
 **Figure 2: Protein–Protein Interaction (PPI) Network of Common DEGs**  
 
 PPI network constructed using STRING database, illustrating interactions among 124 common genes with significant enrichment (p-value < 0.05).
@@ -125,6 +127,7 @@ ELF1, KDM5A, KLF9, KLF1, POLR2A, IRF1, ZNF175, ZNF263
 hsa-miR-193b-3p, hsa-let-7a-5p, hsa-let-7b-5p, hsa-miR-192-5p, hsa-miR-215-5p, hsa-miR-124-3p, hsa-miR-25-3p, hsa-miR-92a-3p
 
 <img width="8721" height="7897" alt="miRNA TF Gene Interactions" src="https://github.com/user-attachments/assets/676797c8-268c-47a6-895d-863fa11790f9" />
+
 **Figure 3: Transcription Factor and miRNA Regulatory Network**  
 
 Integrated network showing transcription factors and miRNAs regulating key genes, highlighting multi-layered gene regulation in breast cancer.
