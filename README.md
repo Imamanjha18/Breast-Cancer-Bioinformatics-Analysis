@@ -72,6 +72,9 @@ Method: Venn diagram;
 Tool used: Venny 2.1.0 (https://bioinfogp.cnb.csic.es/tools/venny/);
 Result: 124 common DEGs found
 
+<img width="1280" height="1280" alt="Venn Results" src="https://github.com/user-attachments/assets/e72c77a9-dc96-4300-aeda-4f0942273137" />
+
+
 ### 3\. PPI Network Construction
 
 Tool used: STRING;
@@ -81,6 +84,10 @@ Network stats:
 \[II] number of edges - 145
 \[III] average node degree - 2.38
 \[IV] PPI enrichment p-value - 8.51e-07
+
+
+<img width="5013" height="5153" alt="String Network" src="https://github.com/user-attachments/assets/a94dea76-b077-41c4-84c5-1f132774819e" />
+
 
 ### 4\. Hub Gene Identification
 
@@ -118,20 +125,6 @@ hsa-miR-193b-3p, hsa-let-7a-5p, hsa-let-7b-5p, hsa-miR-192-5p, hsa-miR-215-5p, h
 Tool used: Enrichr (DSigDB(Drug SIGnatures DataBase))
 
 Top candidate drugs: LUCANTHONE, Phytoestrogens, Troglitazone, Etoposide, Enterolactone, Calcitriol, Resveratrol
-
-
-## 📊 Venn Diagram (Common DEGs)
-![Venn Diagram](figures/Venn Results.png)
-
-## 🔗 PPI Network
-![PPI Network](figures/PPI Network.png)
-
-## 🔬 Regulatory Network
-![TF Network](figures/TF Gene Interactions.png)
-![TF miRNA Network](figures/miRNA TF Gene Interactions.png)
-
-## 💊 Drug Enrichment
-![Drug](figures/DSigDB Drug.png)
 
 
 ## Key Findings
